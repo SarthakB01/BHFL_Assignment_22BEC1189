@@ -30,8 +30,8 @@ A REST API that processes arrays and returns categorized data including numbers,
 ```json
 {
   "is_success": true,
-  "user_id": "sarth_saxena_17122024",
-  "email": "sarth.saxena@example.com",
+  "user_id": "sarthak_bhagwat_17122024",
+  "email": "sarthak.bhagwat@example.com",
   "roll_number": "ABCD123",
   "odd_numbers": ["1"],
   "even_numbers": ["334", "4"],
@@ -69,8 +69,8 @@ A REST API that processes arrays and returns categorized data including numbers,
 ```json
 {
   "is_success": true,
-  "user_id": "sarth_saxena_17122024",
-  "email": "sarth.saxena@example.com",
+  "user_id": "sarthak_bhagwat_17122024",
+  "email": "sarthak.bhagwat@example.com",
   "roll_number": "ABCD123",
   "odd_numbers": ["1"],
   "even_numbers": ["334", "4"],
@@ -93,8 +93,8 @@ A REST API that processes arrays and returns categorized data including numbers,
 ```json
 {
   "is_success": true,
-  "user_id": "sarth_saxena_17122024",
-  "email": "sarth.saxena@example.com",
+  "user_id": "sarthak_bhagwat_17122024",
+  "email": "sarthak.bhagwatexample.com",
   "roll_number": "ABCD123",
   "odd_numbers": ["5"],
   "even_numbers": ["2", "4", "92"],
@@ -109,7 +109,7 @@ A REST API that processes arrays and returns categorized data including numbers,
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/SarthakB01/BHFL_Assignment_22BEC1189
    cd bfhl-api
    ```
 
@@ -131,7 +131,7 @@ A REST API that processes arrays and returns categorized data including numbers,
 
 ## Environment Variables
 
-- `PORT`: Server port (default: 3000)
+- `PORT`: Server port (default: 3000)  //for now
 
 ## Testing the API
 
@@ -153,15 +153,6 @@ curl -X POST http://localhost:3000/bfhl \
    }
    ```
 
-## Deployment
-
-This API can be deployed to various platforms:
-
-- **Vercel**: Supports Node.js APIs
-- **Railway**: Easy deployment with automatic scaling
-- **Render**: Free tier available for APIs
-- **Heroku**: Classic platform for Node.js apps
-
 ## Error Handling
 
 The API includes comprehensive error handling:
@@ -170,13 +161,6 @@ The API includes comprehensive error handling:
 - Error messages for debugging
 - Try-catch blocks for graceful error handling
 
-## Notes
-
-- Numbers are returned as strings in the response
-- Alphabets are converted to uppercase
-- Special characters are identified using regex patterns
-- The `user_id` is generated dynamically based on current date
-- All responses include `is_success` field for status tracking
 
 ## License
 

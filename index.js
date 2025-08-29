@@ -22,7 +22,7 @@ function isSpecialCharacter(str) {
 
 //Geenrating custom user ids
 function generateUserId() {
-    const fullName = "sarthak_bhagwat"; // Replace with your actual name
+    const fullName = "sarthak_bhagwat"; 
     const today = new Date();
     const day = String(today.getDate()).padStart(2, '0');
     const month = String(today.getMonth() + 1).padStart(2, '0');
